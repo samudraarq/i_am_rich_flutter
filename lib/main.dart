@@ -10,8 +10,7 @@ void main() {
       backgroundColor: Colors.blueGrey,
       body: Center(
         child: Image(
-          image: NetworkImage(
-              'https://images.unsplash.com/photo-1599839839843-7ae7701e0548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80'),
+          image: AssetImage('images/diamond.png'),
         ),
       ),
     ),
